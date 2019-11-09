@@ -51,7 +51,7 @@ $(document).ready(function () {
 		var giphyChoiceText = $(this).text();
 
 		// giphy api query
-		var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + giphyChoiceText + "&api_key=dc6zaTOxFJmzC&limit=20";
+		var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + giphyChoiceText + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 		// testing
 		// console.log(queryUrl);
@@ -94,7 +94,7 @@ $(document).ready(function () {
 
 					// mark full
 					giphysFull = true;
-					} // end image for loop
+					} // end rating and image for loop
 				} // end giphygenerate
 
 				// if there are no current images 
